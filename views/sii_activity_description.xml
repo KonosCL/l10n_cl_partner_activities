@@ -36,12 +36,12 @@
           </field>
       </record>
 
-      <record model="ir.actions.act_window" id="act_sii_activity_description">
+      <!--<record model="ir.actions.act_window" id="act_sii_activity_description">
           <field name="name">SII Partner Activities</field>
           <field name="type">ir.actions.act_window</field>
           <field name="res_model">sii.activity.description</field>
-          <field name="view_type">form</field>
+          <field name="view_type">form</field>-->
           <!-- <field name="view_mode">tree,form</field>-->
-      </record>
-      <menuitem name="SII Partner Activities" action="act_sii_activity_description" id="menu_action_act_sii_activity_description" parent="menu_sii_config"/>
+      <!--</record>-->
+      <!--<menuitem name="SII Partner Activities" action="act_sii_activity_description" id="menu_action_act_sii_activity_description" parent="menu_sii_config"/>-->
 </odoo>
