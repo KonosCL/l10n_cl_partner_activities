@@ -12,7 +12,7 @@
                     options="{'no_create': True}" 
                     domain="[('parent_id', '>=', 1)]"
                     invisible="False"/>
-                <field name="activity_description" invisible="True"/>
+                <field name="activity_description"/>
             </field>
         </field>
     </record>
